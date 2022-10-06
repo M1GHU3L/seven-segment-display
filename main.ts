@@ -1,0 +1,112 @@
+function Seven () {
+    pins.digitalWritePin(DigitalPin.P1, 0)
+    pins.digitalWritePin(DigitalPin.P2, 0)
+    pins.digitalWritePin(DigitalPin.P8, 0)
+    pins.digitalWritePin(DigitalPin.P12, 1)
+    pins.digitalWritePin(DigitalPin.P13, 1)
+    pins.digitalWritePin(DigitalPin.P14, 1)
+    pins.digitalWritePin(DigitalPin.P15, 1)
+}
+input.onButtonPressed(Button.A, function () {
+    Zero()
+    basic.pause(1000)
+    One()
+    basic.pause(1000)
+    two()
+    basic.pause(1000)
+    Three()
+    basic.pause(1000)
+    Four()
+    basic.pause(1000)
+    five()
+    basic.pause(1000)
+    Six()
+    basic.pause(1000)
+    Seven()
+    basic.pause(1000)
+    eight()
+    basic.pause(1000)
+    nine()
+})
+function five () {
+    pins.digitalWritePin(DigitalPin.P1, 0)
+    pins.digitalWritePin(DigitalPin.P2, 1)
+    pins.digitalWritePin(DigitalPin.P8, 0)
+    pins.digitalWritePin(DigitalPin.P12, 0)
+    pins.digitalWritePin(DigitalPin.P13, 1)
+    pins.digitalWritePin(DigitalPin.P14, 0)
+    pins.digitalWritePin(DigitalPin.P15, 0)
+}
+function Zero () {
+    pins.digitalWritePin(DigitalPin.P1, 0)
+    pins.digitalWritePin(DigitalPin.P2, 0)
+    pins.digitalWritePin(DigitalPin.P8, 0)
+    pins.digitalWritePin(DigitalPin.P12, 0)
+    pins.digitalWritePin(DigitalPin.P13, 0)
+    pins.digitalWritePin(DigitalPin.P14, 0)
+    pins.digitalWritePin(DigitalPin.P15, 1)
+}
+function eight () {
+    pins.digitalWritePin(DigitalPin.P1, 0)
+    pins.digitalWritePin(DigitalPin.P2, 0)
+    pins.digitalWritePin(DigitalPin.P8, 0)
+    pins.digitalWritePin(DigitalPin.P12, 0)
+    pins.digitalWritePin(DigitalPin.P13, 0)
+    pins.digitalWritePin(DigitalPin.P14, 0)
+    pins.digitalWritePin(DigitalPin.P15, 0)
+}
+function Three () {
+    pins.digitalWritePin(DigitalPin.P1, 0)
+    pins.digitalWritePin(DigitalPin.P2, 0)
+    pins.digitalWritePin(DigitalPin.P8, 0)
+    pins.digitalWritePin(DigitalPin.P12, 0)
+    pins.digitalWritePin(DigitalPin.P13, 1)
+    pins.digitalWritePin(DigitalPin.P14, 1)
+    pins.digitalWritePin(DigitalPin.P15, 0)
+}
+function One () {
+    pins.digitalWritePin(DigitalPin.P1, 1)
+    pins.digitalWritePin(DigitalPin.P2, 0)
+    pins.digitalWritePin(DigitalPin.P8, 0)
+    pins.digitalWritePin(DigitalPin.P12, 1)
+    pins.digitalWritePin(DigitalPin.P13, 1)
+    pins.digitalWritePin(DigitalPin.P14, 1)
+    pins.digitalWritePin(DigitalPin.P15, 1)
+}
+function two () {
+    pins.digitalWritePin(DigitalPin.P1, 0)
+    pins.digitalWritePin(DigitalPin.P2, 0)
+    pins.digitalWritePin(DigitalPin.P8, 1)
+    pins.digitalWritePin(DigitalPin.P12, 0)
+    pins.digitalWritePin(DigitalPin.P13, 0)
+    pins.digitalWritePin(DigitalPin.P14, 1)
+    pins.digitalWritePin(DigitalPin.P15, 0)
+}
+function Four () {
+    pins.digitalWritePin(DigitalPin.P1, 1)
+    pins.digitalWritePin(DigitalPin.P2, 0)
+    pins.digitalWritePin(DigitalPin.P8, 0)
+    pins.digitalWritePin(DigitalPin.P12, 1)
+    pins.digitalWritePin(DigitalPin.P13, 1)
+    pins.digitalWritePin(DigitalPin.P14, 0)
+    pins.digitalWritePin(DigitalPin.P15, 0)
+}
+function Six () {
+    pins.digitalWritePin(DigitalPin.P1, 0)
+    pins.digitalWritePin(DigitalPin.P2, 1)
+    pins.digitalWritePin(DigitalPin.P8, 0)
+    pins.digitalWritePin(DigitalPin.P12, 0)
+    pins.digitalWritePin(DigitalPin.P13, 0)
+    pins.digitalWritePin(DigitalPin.P14, 0)
+    pins.digitalWritePin(DigitalPin.P15, 0)
+}
+function nine () {
+    pins.digitalWritePin(DigitalPin.P1, 0)
+    pins.digitalWritePin(DigitalPin.P2, 0)
+    pins.digitalWritePin(DigitalPin.P8, 0)
+    pins.digitalWritePin(DigitalPin.P12, 0)
+    pins.digitalWritePin(DigitalPin.P13, 1)
+    pins.digitalWritePin(DigitalPin.P14, 0)
+    pins.digitalWritePin(DigitalPin.P15, 0)
+}
+basic.showIcon(IconNames.Heart)
